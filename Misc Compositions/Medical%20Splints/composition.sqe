@@ -1,0 +1,207 @@
+version=53;
+center[]={4809.4492,64.29821,5074.647};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={0,0.41794586,0};
+			angles[]={0.053337261,2.7598891,0.10288716};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=1338;
+		type="Land_PortableCabinet_01_medical_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ace_arsenal_attribute";
+				expression="if (!is3DEN) then {[_this, +_value] call ace_arsenal_fnc_attributeInit}";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"ARRAY"
+							};
+						};
+						class value
+						{
+							items=2;
+							class Item0
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"ARRAY"
+										};
+									};
+									class value
+									{
+										items=1;
+										class Item0
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="ACE_splint";
+											};
+										};
+									};
+								};
+							};
+							class Item1
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="Drawer_1_Move";
+				expression="_this animate ['Drawer_1_move_source',_value,true]";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=0.47812027;
+					};
+				};
+			};
+			class Attribute2
+			{
+				property="Drawer_2_Move";
+				expression="_this animate ['Drawer_2_move_source',_value,true]";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute3
+			{
+				property="Drawer_3_Move";
+				expression="_this animate ['Drawer_3_move_source',_value,true]";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute4
+			{
+				property="Drawer_4_Move";
+				expression="_this animate ['Drawer_4_move_source',_value,true]";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=0.31;
+					};
+				};
+			};
+			class Attribute5
+			{
+				property="Drawer_5_Move";
+				expression="_this animate ['Drawer_5_move_source',_value,true]";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute6
+			{
+				property="Drawer_6_Move";
+				expression="_this animate ['Drawer_6_move_source',_value,true]";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=1;
+					};
+				};
+			};
+			nAttributes=7;
+		};
+	};
+};
